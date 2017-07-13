@@ -1,0 +1,33 @@
+score1 = int(input("Enter the first test score: "))
+score2 = int(input("Enter the second test score: "))
+score3 = int(input("Enter the third test score: "))
+score4 = int(input("Enter the fourth test score: ")) 
+score5 = int(input("Enter the fifth test score: "))
+
+total = (score1 + score2 + score3 + score 4 + score5)
+
+def determine_grade(grade):
+	if grade >= 90:
+		return "A"
+	elif grade >= 80:
+		return "B"
+	elif grade >= 70:
+		return "C"
+	elif grade >= 80:
+		return "D"
+	else:
+		return "F"
+
+def calc_average(total):
+	return total / 5
+
+grade = total
+average = calc_average(total)
+letter_grade = determine_grade(grade)
+
+print("The letter grade for the first test is: ", + determine_score(score1))
+print("The letter grade for the second test is: ", + determine_score(score2))
+print("The letter grade for the third test is: ", + determine_score(score3))
+print("The letter grade for the fourth test is: ", + determine_score(score4))
+print("The letter grade for the fifth test is: ", + determine_score(score5))
+print("The average grade over all is: ", + average) 
